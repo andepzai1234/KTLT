@@ -3,9 +3,11 @@ print("MSSV:215748020110273")
 print("####################")
 ############################
 
-n1=int(input("enter n1 value"))
-n2=int(input("enter n2 value"))
-if n1>n2: print("n1 is big")
-else: print("n2 is big")
+n=int(input("Nhập vào một số:"))
+d=dict()
+for i in range(1,n+1):
+    d[i]=i*i
 
-    
+print (d)
+            
+            
